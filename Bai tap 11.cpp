@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 int main ()
 
 {
@@ -10,16 +9,17 @@ int main ()
 		printf("\nNhap n: ");
 		scanf("%d",&n);
 		if (n<=0)	printf("\nnhap lai n nhe!\n");
+		
 	}while(n<=0);
 	 i=1;
 	 P=1;
 	 S=0;
 	 
-	  while(i<=n);
+	  while(i<=n)
 	  {
 			P=P*i;
 			S=S+P;
-			printf("S(%d)=%d",i,S);
+			printf("\nS(%d)=%d",i,S);
 			i++;
 				
 	  }
